@@ -1,7 +1,6 @@
 {
   "name": "anant-portfolio",
   "hostname": "https://techo-anant.github.io/anant-portfolio/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
