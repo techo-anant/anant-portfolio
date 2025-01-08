@@ -2,7 +2,7 @@
     width: 38rem;
     max-width: 95vw;
     height: 32rem;
-    background-color: #3c3c3c;
+    background: linear-gradient(to bottom, #3c3c3c, #2c2c2c);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
