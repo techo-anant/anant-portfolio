@@ -1,0 +1,52 @@
+.experience {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#title {
+    font-weight: 700;
+}
+
+.listed {
+    width: 80vw;
+}
+
+.list {
+    border-radius: 16px;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+    margin-bottom: 3vh;
+    padding: 10px;
+}
+
+.job-title {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    padding: 0;
+    margin: 0;
+}
+
+.co-date {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 0;
+}
+
+#detail {
+    line-height: 1.5;
+    list-style: square;
+    text-align: left;
+    padding: 0;
+    padding-left: 5vw;
+}

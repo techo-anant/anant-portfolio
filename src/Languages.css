@@ -1,0 +1,87 @@
+.languages {
+    width: 38rem;
+    max-width: 95vw;
+    height: 32rem;
+    background-color: #3c3c3c;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 1000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.back {
+    line-height: 2;
+}
+
+.back {
+    padding: 0;
+}
+
+.back li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.back span {
+    font-size:  1rem;
+    font-weight: 800;
+}
+
+.bar {
+    width: 60%;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.proficiency {
+    background-color: orange;
+    border-radius: 10px;
+    height: 8px;
+}
+
+#c {
+    width: 83.33%;
+}
+
+#java {
+    width: 83.33%;
+}
+
+#python {
+    width: 50%;
+}
+
+#html {
+    width: 90%;
+}
+
+#css {
+    width: 90%;
+}
+
+#js {
+    width: 70%;
+}
+
+#react {
+    width: 50%;
+}
+
+#mysql {
+    width: 60%;
+}
+

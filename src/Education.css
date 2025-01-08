@@ -1,0 +1,66 @@
+.education {
+    width: 38rem;
+    height: 32rem;
+    max-width:  95vw;
+    background-color: #3c3c3c;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.Uname {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.name b{
+    font-size: 2rem;
+    font-weight: 1000;
+    color: azure;
+}
+
+.maj-gpa {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.maj-gpa ol {
+    padding: 0;
+    list-style: none;
+}
+
+.maj-gpa span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.maj-gpa li {
+    text-align: left;
+}
+
+.majors li {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.year {
+    font-size: 1.1rem;
+}
+
+.year b {
+    font-size: 1.2rem;
+}
