@@ -1,5 +1,7 @@
 #root {
   background: linear-gradient(to bottom, #1c1c1c, #2c2c2c 50%, #1c1c1c 100%);
+  color: white;
+  font-family: sans-serif;
   text-align: center;
 }
 
