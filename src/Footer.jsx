@@ -26,7 +26,7 @@ const Footer = React.forwardRef((props, ref) => {
                     </ul>
                 </div>
                 <div className="section" id="about">
-                    <span>This is my <u>current Portfolio</u>, it will keep on changing as i am in the process of continuous learning. <br />If you want to <b>offer any Position to me</b>: <br />If you have <b>any projec idea</b>: <br />If you have <b>any questions</b>: <br /> -{'>'}Feel free to contact me with any mode on the left.</span>
+                    <span>This is my <u>current Portfolio</u>, it will keep on changing as I am in the process of continuous learning. <br />If you want to <b>offer any Position to me</b>: <br />If you have <b>any project idea</b>: <br />If you have <b>any questions</b>: <br /> -{'>'}Feel free to contact me with any mode mentioned.</span>
                 </div>
             </div>
             <div className="copyright">
