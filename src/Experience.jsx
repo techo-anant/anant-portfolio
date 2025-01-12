@@ -21,8 +21,7 @@ const Experience = React.forwardRef((_, ref) => {
             title: "Mentor", company: "Odette Accounting Society, Odette School of Business, Windsor, ON", date: "October 2024 – Present", details: [
                 "Guided high school students through a comprehensive one-week case competition, providing critical insights and support",
                 "Collaborated with a team to ensure a high-quality mentoring experience and create a positive impact on students' professional development",
-                "Participated in various club activities, enhancing the visibility of mentorship programs and building relationships within the community",
-                "Engaged in various club activities, enhancing visibility of mentorship programs and building relationships within the community"
+                "Participated in various club activities, enhancing the visibility of mentorship programs and building relationships within the community"
             ]
         },
         {
