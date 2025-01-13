@@ -12,7 +12,7 @@ const Projects = React.forwardRef((_, ref) => {
     ];
 
     const upcoming = [
-        { id: 1, title: "Bring me the Files", desc: "Implemented a server-client file transfer system in Java using multithreading, enabling simultaneous file uploads from multiple clients efficiently", link: "Currently Working on it" },
+        { id: 1, title: "Bring me the Files", desc: "Implemented a server-client file transfer system in Java using multithreading, enabling simultaneous file uploads from multiple clients efficiently", link: "https://github.com/techo-anant/Bring-me-the-Files/blob/main/ServerClient.java" },
     ];
 
     return (
