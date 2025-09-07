@@ -1,5 +1,5 @@
 import React from 'react';
-import './Languages.css'
+import '../styles/Languages.css'
 
 const Languages = React.forwardRef((_, ref) => {
 

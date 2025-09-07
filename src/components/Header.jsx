@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'; // Add custom styles in this file
+import '../styles/Header.css'; // Add custom styles in this file
 import { useState } from 'react';
 import { RxDropdownMenu } from "react-icons/rx";
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Experience.css'
+import '../styles/Experience.css'
 
 const Experience = React.forwardRef((_, ref) => {
 

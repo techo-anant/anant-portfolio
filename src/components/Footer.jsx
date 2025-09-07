@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'
+import '../styles/Footer.css'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";

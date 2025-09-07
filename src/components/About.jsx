@@ -5,7 +5,7 @@ import { HiOutlineAcademicCap } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import React from "react";
-import './About.css'
+import '../styles/About.css'
 
 const About = React.forwardRef(({ aboutRef, docxRef }, ref) => {
     const [text, setText] = useState(""); // Current displayed text

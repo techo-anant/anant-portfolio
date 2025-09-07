@@ -1,11 +1,11 @@
 import './App.css'
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import About from './About.jsx'
-import Education from './Education.jsx'
-import Languages from './Languages.jsx'
-import Experience from './Experience.jsx'
-import Projects from './Projects.jsx'
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
+import About from './components/About.jsx'
+import Education from './components/Education.jsx'
+import Languages from './components/Languages.jsx'
+import Experience from './components/Experience.jsx'
+import Projects from './components/Projects.jsx'
 import { useRef } from 'react'
 
 function App() {

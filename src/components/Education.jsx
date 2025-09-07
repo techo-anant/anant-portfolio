@@ -1,5 +1,5 @@
 import React from 'react'
-import './Education.css'
+import '../styles/Education.css'
 
 const Education = React.forwardRef((_, ref) => {
 
