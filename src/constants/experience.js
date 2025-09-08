@@ -1,3 +1,6 @@
+import MikeC from "/assets/mike-c-recognition.jpg";
+import MikeV from "/assets/mike-v-recognition.png";
+
 export const experienceList = [
     {
         title: "Financial Reporting & Insights",
@@ -11,11 +14,11 @@ export const experienceList = [
         ],
         recognitions: [
             {
-                src: "/assets/mike-c-recognition.jpg",
+                src: MikeC,
                 desc: "Recognized by the wonderful Partner Mike Cowan from BDO"
             },
             {
-                src: "/assets/mike-v-recognition.png",
+                src: MikeV,
                 desc: "Recognized by the wonderful Partner Mike Van Essen from BDO"
             },
         ]
