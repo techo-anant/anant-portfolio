@@ -11,11 +11,11 @@ export const experienceList = [
         ],
         recognitions: [
             {
-                src: "public/assets/mike-c-recognition.jpg",
+                src: "/assets/mike-c-recognition.jpg",
                 desc: "Recognized by the wonderful Partner Mike Cowan from BDO"
             },
             {
-                src: "public/assets/mike-v-recognition.png",
+                src: "/assets/mike-v-recognition.png",
                 desc: "Recognized by the wonderful Partner Mike Van Essen from BDO"
             },
         ]
