@@ -50,3 +50,9 @@
     padding: 0;
     padding-left: 5vw;
 }
+
+.recognition-image img{
+    height: 200px;
+    width: auto;
+    padding: 1rem;
+}

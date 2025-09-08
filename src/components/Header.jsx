@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Header.css'; // Add custom styles in this file
 import { useState } from 'react';
 import { RxDropdownMenu } from "react-icons/rx";
+import { MENU_ITEMS, NAV_ITEMS } from "../constants/menu.js";
 
 const Header = ({ scrollToAbout, scrollToDocument, scrollToEducation, scrollToLanguages, scrollToExperience, scrollToProjects, scrollToContact, documentSearch }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,6 +24,16 @@ const Header = ({ scrollToAbout, scrollToDocument, scrollToEducation, scrollToLa
     }
   }
 
+  const scrollMap = {
+    about: scrollToAbout,
+    education: scrollToEducation,
+    languages: scrollToLanguages,
+    experience: scrollToExperience,
+    projects: scrollToProjects,
+    documents: scrollToDocument,
+    contact: scrollToContact
+  };
+
 
   return (
     <header className="navbar">
@@ -38,59 +49,30 @@ const Header = ({ scrollToAbout, scrollToDocument, scrollToEducation, scrollToLa
         </div>
         <div className="dropdown-content">
           <ul className="dp-box">
-            <a onClick={() => {
-              scrollToAbout();
-              toggleMenu();
-            }
-            }>
-              <li>About Me</li>
-            </a>
-            <a onClick={() => {
-              scrollToEducation();
-              toggleMenu();
-            }
-            }>
-              <li>Education</li>
-            </a>
-            <a onClick={() => {
-              scrollToLanguages();
-              toggleMenu();
-            }
-            }><li>Languages</li></a>
-            <a onClick={() => {
-              scrollToExperience();
-              toggleMenu();
-            }
-            }><li>Work Experience</li></a>
-            <a onClick={() => {
-              scrollToProjects();
-              toggleMenu();
-            }
-            }><li>Projects</li></a>
-            <a onClick={() => {
-              scrollToDocument();
-              toggleMenu();
-              documentSearch();
-            }
-            }>
-              <li>Documents</li>
-            </a>
-            <a onClick={() => {
-              scrollToContact();
-              toggleMenu();
-            }
-            }>
-              <li>Contact</li>
-            </a>
+            {MENU_ITEMS.map((items, index) => (
+              <a
+                key={index}
+                onClick={() => {
+                  scrollMap[items.key]();
+                  toggleMenu();
+                }}
+              >
+                <li>{items.title}</li>
+              </a>
+            ))}
           </ul>
         </div>
       </div>
       <div className="bar-item">
-        <div className="nav-item" onClick={scrollToAbout}>About Me</div>
-        <div className="nav-item" onClick={scrollToEducation}>Languages</div>
-        <div className="nav-item" onClick={scrollToExperience}>Experience</div>
-        <div className="nav-item" onClick={scrollToProjects}>Projects</div>
-        <div className="nav-item" onClick={scrollToContact}>Contacts</div>
+        {NAV_ITEMS.map((item, index) => (
+          <div
+            key={index}
+            className="nav-item"
+            onClick={scrollMap[item.key]}
+          >
+            {item.title}
+          </div>
+        ))}
       </div>
     </header >
   );
