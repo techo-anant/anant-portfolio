@@ -8,6 +8,11 @@ import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
 import { useRef } from 'react'
 
+export const meta = () => ([
+  { title: 'Anant | Portfolio' },
+  { name: 'description', content: 'Up to date portfolio of Anant Kumar Singh' },
+])
+
 function App() {
   const aboutMeRef = useRef(null);
   const educationRef = useRef(null);

@@ -53,8 +53,8 @@ const About = React.forwardRef(({ aboutRef, docxRef }, ref) => {
                 <span id="name">{text}</span>
                 <p id="dscp">A passionate <b>Computer Science and Business Administration</b> student.<br />Exploring for opportunities in the tech world.<br />My portfolio showcases a variety of projects that blend technology and business, including full-stack web development applications, financial models, and software solutions.</p>
                 <div className="docx" ref={docxRef} id="docx">
-                    <a href="https://drive.google.com/file/d/1h0I44OjsIRVSnfweBHEKD5VrEztvRvqd/view?usp=drive_link" target="_blank"><div className="icon" id="resume"><FaFilePdf /></div></a>
-                    <a href="https://drive.google.com/file/d/1dxfZkb0fjaE7cGlkcEcWyc_X4SrKM60K/view?usp=drive_link" target="_blank"><div className="icon"><HiOutlineAcademicCap /></div></a>
+                    <a href="https://drive.google.com/file/d/1N357BcsHiRR4TpkXHH8eGhTqz3VgDj_s/view?usp=sharing" target="_blank"><div className="icon" id="resume"><FaFilePdf /></div></a>
+                    <a href="https://drive.google.com/file/d/1qxBG6tfGG9YljcOY9t88y24jNTjGCohy/view?usp=sharing" target="_blank"><div className="icon"><HiOutlineAcademicCap /></div></a>
                     <a href="https://github.com/techo-anant"><div className="icon"><FaGithub /></div></a>
                     <a href="https://www.linkedin.com/in/anantk-singh/"><div className="icon"><FaLinkedin /></div></a>
                     <a href="mailto:singh4n3@uwindsor.ca"><div className="icon"><MdEmail /></div></a>

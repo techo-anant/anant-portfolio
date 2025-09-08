@@ -10,6 +10,12 @@ const Languages = React.forwardRef((_, ref) => {
                 <p className="title">Backend</p>
                 <ul className="back">
                     <li>
+                        <span>TypeScript : </span>
+                        <div className="bar">
+                            <div className="proficiency" id="typescript"></div>
+                        </div>
+                    </li>
+                    <li>
                         <span>C : </span>
                         <div className="bar">
                             <div className="proficiency" id="c"></div>
@@ -40,15 +46,15 @@ const Languages = React.forwardRef((_, ref) => {
                         </div>
                     </li>
                     <li>
-                        <span>CSS : </span>
+                        <span>Tailwind CSS : </span>
                         <div className="bar">
                             <div className="proficiency" id="css"></div>
                         </div>
                     </li>
                     <li>
-                        <span>JavaScript : </span>
+                        <span>CSS : </span>
                         <div className="bar">
-                            <div className="proficiency" id="js"></div>
+                            <div className="proficiency" id="css"></div>
                         </div>
                     </li>
                     <li>
@@ -67,6 +73,12 @@ const Languages = React.forwardRef((_, ref) => {
                         <span>MySQL : </span>
                         <div className="bar">
                             <div className="proficiency" id="mysql"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>MongoDB : </span>
+                        <div className="bar">
+                            <div className="proficiency" id="mongodb"></div>
                         </div>
                     </li>
                 </ul>

@@ -26,7 +26,7 @@ const Education = React.forwardRef((_, ref) => {
                     </ol>
                 </div>
             </div>
-            <p className="year">Current year of study - <b>2<sup>nd</sup> year</b></p>
+            <p className="year">Current year of study - <b>3<sup>nd</sup> year</b></p>
         </div>
     );
 

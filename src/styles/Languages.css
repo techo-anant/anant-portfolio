@@ -19,11 +19,9 @@
 
 .back {
     line-height: 2;
-}
-
-.back {
     padding: 0;
 }
+
 
 .back li {
     display: flex;

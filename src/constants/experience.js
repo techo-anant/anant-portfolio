@@ -37,7 +37,10 @@ export const experienceList = [
         company: "Glendor Inc.",
         date: "Jan 2025 - April 2025",
         details: [
-            "Analysing and processing large sets of distorted images using Python and C to support AI model development"
+            "Developed a Python-based processing pipeline (using PyTorch and NumPy) to automate defacing of head MRI scans and extract neuroimaging biomarkers from open-source datasets, enabling processing of 100+ scans per week and enhancing patient data privacy.",
+            "Researched state-of-the-art MRI biomarker extraction techniques and integrated them into the pipeline, expanding the set of automatically identified imaging biomarkers by ~20% and streamlining subsequent analysis workflows.",
+            "Collaborated with a team of three interns to evaluate and refine multiple defacing and extraction algorithms across 500 MRI scans, analyzing results to iteratively improve pipeline accuracy and efficiency.",
+            "Engineered quantitative performance metrics (e.g. similarity scores, artifact counts) to objectively measure the effectiveness of defacing and extraction algorithms, enabling data-driven comparisons and reducing evaluation time by ~50%.",
         ],
         recognitions: null,
     },
