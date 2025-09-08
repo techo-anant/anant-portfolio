@@ -20,9 +20,9 @@ const Education = React.forwardRef((_, ref) => {
                 <div className="gpa">
                     <span>Cummulative GPA</span>
                     <ol className="dif-gpa">
-                        <li>Out of 100% - 97.3%</li>
-                        <li>Out of 4.0 - 4.0</li>
-                        <li>In Grades - A<sup>+</sup></li>
+                        <li>Out of 100% - <b>97.3%</b></li>
+                        <li>Out of 4.0 - <b>4.0</b></li>
+                        <li>In Grades - <b>A<sup>+</sup></b></li>
                     </ol>
                 </div>
             </div>

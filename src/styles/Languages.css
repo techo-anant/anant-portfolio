@@ -6,79 +6,46 @@
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .title {
-    font-size: 1.4rem;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 2rem;
+    padding-bottom: .5rem;
     font-weight: 1000;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.back {
-    line-height: 2;
-    padding: 0;
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
 }
 
-
-.back li {
+.lang {
+    padding: .5rem;
+    margin: .3rem;
+    background-color: linear-gradient(to right, #5c5c5c, #2c2c2c 50%, #1c1c1c 100%);
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    box-shadow: 0px 2px 6px black;
+    width: fit-content;
+    border-radius: 1rem;
 }
 
-.back span {
-    font-size: 1rem;
-    font-weight: 800;
+.lang img{
+    height: 1.2rem;
+    width: auto;
 }
 
-.bar {
-    width: 60%;
-    height: 8px;
-    background-color: #fff;
-    border-radius: 10px;
-    display: flex;
-    justify-content: left;
-}
-
-.proficiency {
-    background-color: orange;
-    border-radius: 10px;
-    height: 8px;
-}
-
-#c {
-    width: 83.33%;
-}
-
-#java {
-    width: 83.33%;
-}
-
-#python {
-    width: 50%;
-}
-
-#html {
-    width: 90%;
-}
-
-#css {
-    width: 90%;
-}
-
-#js {
-    width: 80%;
-}
-
-#react {
-    width: 75%;
-}
-
-#mysql {
-    width: 60%;
+.lang span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: .2rem;
 }
