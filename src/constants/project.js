@@ -72,10 +72,7 @@ export const projects = [
             ],
         link: "https://github.com/techo-anant/L-Hopfield-SOM",
         demo: "",
-    }
-];
-
-export const upcoming = [
+    },
     {
         title: "Bring me the Files",
         desc:
@@ -85,5 +82,7 @@ export const upcoming = [
             ],
         link: "https://github.com/techo-anant/Bring-me-the-Files/blob/main/ServerClient.java",
         demo: "",
-    },
+    }
 ];
+
+export const upcoming = null;
