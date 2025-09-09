@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 10vh;
+    height: fit-content;
 }
 
 #title {
@@ -55,4 +56,21 @@
     height: 200px;
     width: auto;
     padding: 1rem;
+}
+
+.recognition-desc {
+    display: flex;
+}
+
+.recognition-desc p{
+    cursor: pointer;
+    padding: .1rem;
+}
+
+.recognition-desc img{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    height: 1.2rem;
+    width: auto;
 }

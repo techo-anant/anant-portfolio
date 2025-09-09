@@ -1,8 +1,11 @@
 import React from 'react'
 import '../styles/Experience.css'
 import { experienceList } from '../constants/experience.js';
+import { useMediaQuery } from "react-responsive";
 
 const Experience = React.forwardRef((_, ref) => {
+
+    const isMobile = useMediaQuery({ query: "(max-width: 700px)" });
 
     return (
         <div ref={ref} className="experience">
@@ -30,7 +33,13 @@ const Experience = React.forwardRef((_, ref) => {
                                         target="_blank"            // opens in a new tab
                                         rel="noopener noreferrer"  // security best practice
                                     >
-                                        <img src={recognition.src} alt={recognition.desc} />
+                                        {!isMobile? (
+                                            <img src={recognition.src} alt={recognition.desc} />
+                                        ): (
+                                            <div className="recognition-desc">
+                                                <p><img src="icons/image-icon.png" alt={recognition.desc} />{recognition.desc}</p>
+                                            </div>
+                                        )}
                                     </a>
                                 ))}
                             </div>

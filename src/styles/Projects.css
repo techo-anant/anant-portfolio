@@ -17,20 +17,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    height: fit-content;
 }
 
 .project {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: -10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 2);
     max-width: 35rem;
-    max-height: 20rem;
+    min-height: 20rem;
 }
 
 .project:hover {

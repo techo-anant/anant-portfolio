@@ -1,13 +1,16 @@
 .languages {
     width: 38rem;
     max-width: 95vw;
-    height: 32rem;
+    min-height: 32rem;
     background: linear-gradient(to bottom, #3c3c3c, #2c2c2c);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .title {
